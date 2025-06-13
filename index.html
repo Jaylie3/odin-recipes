@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f9f5f0;
+        }
+        h1 {
+            color: #8B4513;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            color: #8B4513;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        /* Enhanced Navigation Styles */
+        nav {
+            background: #5D4037;
+            padding: 15px 0;
+            margin-bottom: 30px;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        nav li {
+            margin: 0;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover, nav a.active {
+            background: rgba(255,255,255,0.2);
+            text-decoration: none;
+        }
+        nav i {
+            font-size: 1.1rem;
+        }
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-utensils"></i> Odin Recipes</h1>
+        <p style="text-align: center; margin-bottom: 20px;">A collection of simple recipes created for The Odin Project Foundations Course.</p>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="recipes/lasagna.html"><i class="fas fa-cheese"></i> Lasagna</a></li>
+                <li><a href="recipes/pancakes.html"><i class="fas fa-pancakes"></i> Pancakes</a></li>
+                <li><a href="recipes/salad.html"><i class="fas fa-leaf"></i> Salad</a></li>
+            </ul>
+        </nav>
+        
+        <ul>
+            <li><a href="recipes/lasagna.html">Classic Lasagna</a></li>
+            <li><a href="recipes/pancakes.html">Fluffy Pancakes</a></li>
+            <li><a href="recipes/salad.html">Garden Salad</a></li>
+        </ul>
+    </div>
+</body>
+</html>
