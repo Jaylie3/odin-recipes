@@ -5,105 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fluffy Pancakes | Odin Recipes</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f9f5f0;
-        }
-        h1 {
-            color: #8B4513;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        h2 {
-            color: #8B4513;
-            margin-top: 30px;
-            margin-bottom: 15px;
-        }
-        img {
-            display: block;
-            max-width: 100%;
-            height: auto;
-            margin: 20px auto;
-            border-radius: 10px;
-        }
-        ul, ol {
-            margin-left: 20px;
-            margin-bottom: 20px;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        a {
-            color: #8B4513;
-            text-decoration: none;
-            font-weight: bold;
-            display: block;
-            margin-top: 30px;
-            text-align: center;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        /* Enhanced Navigation Styles */
-        nav {
-            background: #5D4037;
-            padding: 15px 0;
-            margin-bottom: 30px;
-        }
-        nav ul {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            list-style-type: none;
-        }
-        nav li {
-            margin: 0;
-        }
-        nav a {
-            color: white;
-            padding: 10px 20px;
-            border-radius: 30px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            transition: all 0.3s ease;
-        }
-        nav a:hover, nav a.active {
-            background: rgba(255,255,255,0.2);
-            text-decoration: none;
-        }
-        nav i {
-            font-size: 1.1rem;
-        }
-        @media (max-width: 600px) {
-            nav ul {
-                flex-direction: column;
-                align-items: center;
-                gap: 10px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
     <div class="container">
-        <h1><i class="fas fa-pancakes"></i> Fluffy Pancakes</h1>
+        <h1><i class="fas fa-layer-group"></i> Fluffy Pancakes</h1>
         
         <nav>
             <ul>
                 <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
                 <li><a href="lasagna.html"><i class="fas fa-cheese"></i> Lasagna</a></li>
-                <li><a href="pancakes.html" class="active"><i class="fas fa-pancakes"></i> Pancakes</a></li>
+                <li><a href="pancakes.html" class="active"><i class="fas fa-layer-group"></i> Pancakes</a></li>
                 <li><a href="salad.html"><i class="fas fa-leaf"></i> Salad</a></li>
             </ul>
         </nav>
@@ -141,7 +53,7 @@
             <li>Serve warm with butter and maple syrup</li>
         </ol>
         
-        <a href="../index.html"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        <a href="../index.html" class="recipe-nav-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
     </div>
 </body>
 </html>
